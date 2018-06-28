@@ -26,15 +26,24 @@ public class CustomQueue {
         return array.isEmpty();
     }
 
-    void replaceWithLessCost(Node node){
+    int getIndex(Node node){
         for (int i = 0; i < array.size(); i++) {
-            if(array.get(i).getId().equals(node.getId())){
-                if(array.get(i).totalCost > node.totalCost){
-                    array.remove(i);
-                    array.add(node);
-                }
+            if (array.get(i).getId().equals(node.getId())){
+                return i;
             }
         }
+
+        return -1;
+    }
+
+    void replaceWithLessCost(Node node, int i){
+        if(array.get(i).getId().equals(node.getId())){
+            if(array.get(i).totalCost > node.totalCost){
+                array.remove(i);
+                array.add(node);
+            }
+        }
+
     }
 
 

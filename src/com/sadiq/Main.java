@@ -28,12 +28,34 @@ public class Main {
         System.out.print("Puzzle's Number of Coloumn: ");
         int column = sc.nextInt();
 
+        System.out.println("Would you like to input the goal Puzzle(y) or" +
+                " like use the defult one(n)   ?");
+        System.out.println("Please press 'y' or 'n':");
 
-        System.out.println("Input the element of the Goal Puzzle");
-        System.out.println("---------------------------------");
+        String in = sc.next();
 
-        Node fNode = new Node(row,column);
-        fNode.inputElement();
+        Node fNode = new Node(row, column);
+
+        if (in.equals("y")) {
+
+
+            System.out.println("Input the element of the Goal Puzzle");
+            System.out.println("---------------------------------");
+
+
+            fNode.inputElement();
+            fNode.printGrid();
+        }
+        else {
+            int c = 0;
+            for (int i = 0; i < row; i++) {
+                for (int j = 0; j < column; j++) {
+                   fNode.grid[i][j] =  c;
+                   c++;
+                }
+            }
+            fNode.printGrid();
+        }
 
         Node sNode = new Node(row, column);
 
