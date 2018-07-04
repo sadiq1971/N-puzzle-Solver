@@ -1,5 +1,6 @@
 package com.sadiq;
 
+import javax.swing.*;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Random;
@@ -89,11 +90,20 @@ public class Main {
         HashMap<String, Node> visited = Search.Astar(sNode, fNode, HeuristicFunction.THREE);
 
 
+        int tNode = 0;
+        for (String key: visited.keySet()
+             ) {
+            tNode++;
+        }
+
+        System.out.println("Total visited node: "+tNode);
+
 
         if (visited.containsKey(fNode.calculateId())) {
             Node temp = visited.get(fNode.calculateId());
             ArrayList<Node> v = new ArrayList<>();
             v.add(fNode);
+            System.out.println("Depth: "+temp.depth);
 
 
             while (true) {
@@ -110,6 +120,32 @@ public class Main {
             for (int i = v.size()-1; i >= 0; i--) {
                 v.get(i).printGrid();
             }
+
+
+            if (row == 4 && column ==4) {
+
+
+              /**  try {
+                    for (UIManager.LookAndFeelInfo info: UIManager.getInstalledLookAndFeels()) {
+                        if ("Nimbus".equals(info.getName())) {
+                            UIManager.setLookAndFeel(info.getClassName());
+                            break;
+                        }
+                    }
+                } catch (Exception e) {
+                    // If Nimbus is not available, you can set the GUI to another look and feel.
+                }*/
+
+                App app = new App(v);
+                JFrame frame = new JFrame("15 PUZZLE");
+                frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+                frame.setContentPane(app.panel1);
+                frame.pack();
+                frame.setVisible(true);
+
+
+            }
+
 
         }
         else {

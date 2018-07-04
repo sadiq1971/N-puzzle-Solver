@@ -39,6 +39,7 @@ public class CustomQueue {
     void replaceWithLessCost(Node node, int i){
         if(array.get(i).getId().equals(node.getId())){
             if(array.get(i).totalCost > node.totalCost){
+                System.out.println("Added");
                 array.remove(i);
                 array.add(node);
             }

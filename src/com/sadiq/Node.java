@@ -234,7 +234,7 @@ public class Node extends CalculateHFunction{
         Node temp = goal;
         Move array[] = {Move.RIGHT, Move.LEFT, Move.UP, Move.DOWN};
 
-        for(int i = 0; i < 50; i++){
+        for(int i = 0; i < 75; i++){
             Random r = new Random();
             int a = r.nextInt(4);
             temp = temp.move(array[a]);

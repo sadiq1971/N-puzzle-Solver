@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.sadiq.App">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="66" y="97" width="391" height="408"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="12f66" class="javax.swing.JButton" binding="b1">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Noto Sans Mono CJK SC Bold" size="20" style="1"/>
+          <maximumSize width="70" height="70"/>
+          <minimumSize width="70" height="70"/>
+          <preferredSize width="70" height="70"/>
+          <text value="Button"/>
+        </properties>
+      </component>
+      <component id="b02c8" class="javax.swing.JButton" binding="b2">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Noto Sans Mono CJK SC Bold" size="20" style="1"/>
+          <maximumSize width="70" height="70"/>
+          <minimumSize width="70" height="70"/>
+          <preferredSize width="70" height="70"/>
+          <text value="Button"/>
+        </properties>
+      </component>
+      <component id="16342" class="javax.swing.JButton" binding="b3">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Noto Sans Mono CJK SC Bold" size="20" style="1"/>
+          <maximumSize width="70" height="70"/>
+          <minimumSize width="70" height="70"/>
+          <preferredSize width="70" height="70"/>
+          <text value="Button"/>
+        </properties>
+      </component>
+      <component id="29342" class="javax.swing.JButton" binding="b4">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Noto Sans Mono CJK SC Bold" size="20" style="1"/>
+          <maximumSize width="70" height="70"/>
+          <minimumSize width="70" height="70"/>
+          <preferredSize width="70" height="70"/>
+          <text value="Button"/>
+        </properties>
+      </component>
+      <component id="e1b24" class="javax.swing.JButton" binding="b8">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Noto Sans Mono CJK SC Bold" size="20" style="1"/>
+          <maximumSize width="70" height="70"/>
+          <minimumSize width="70" height="70"/>
+          <preferredSize width="70" height="70"/>
+          <text value="Button"/>
+        </properties>
+      </component>
+      <component id="dd821" class="javax.swing.JButton" binding="b7">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Noto Sans Mono CJK SC Bold" size="20" style="1"/>
+          <maximumSize width="70" height="70"/>
+          <minimumSize width="70" height="70"/>
+          <preferredSize width="70" height="70"/>
+          <text value="Button"/>
+        </properties>
+      </component>
+      <component id="e084c" class="javax.swing.JButton" binding="b5">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Noto Sans Mono CJK SC Bold" size="20" style="1"/>
+          <maximumSize width="70" height="70"/>
+          <minimumSize width="70" height="70"/>
+          <preferredSize width="70" height="70"/>
+          <text value="Button"/>
+        </properties>
+      </component>
+      <component id="2f15f" class="javax.swing.JButton" binding="b12">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Noto Sans Mono CJK SC Bold" size="20" style="1"/>
+          <maximumSize width="70" height="70"/>
+          <minimumSize width="70" height="70"/>
+          <preferredSize width="70" height="70"/>
+          <text value="Button"/>
+        </properties>
+      </component>
+      <component id="e24e" class="javax.swing.JButton" binding="b16">
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Noto Sans Mono CJK SC Bold" size="20" style="1"/>
+          <maximumSize width="70" height="70"/>
+          <minimumSize width="70" height="70"/>
+          <preferredSize width="70" height="70"/>
+          <text value="Button"/>
+        </properties>
+      </component>
+      <component id="9a75e" class="javax.swing.JButton" binding="b11">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Noto Sans Mono CJK SC Bold" size="20" style="1"/>
+          <maximumSize width="70" height="70"/>
+          <minimumSize width="70" height="70"/>
+          <preferredSize width="70" height="70"/>
+          <text value="Button"/>
+        </properties>
+      </component>
+      <component id="ba6e2" class="javax.swing.JButton" binding="b15">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Noto Sans Mono CJK SC Bold" size="20" style="1"/>
+          <maximumSize width="70" height="70"/>
+          <minimumSize width="70" height="70"/>
+          <preferredSize width="70" height="70"/>
+          <text value="Button"/>
+        </properties>
+      </component>
+      <component id="93d96" class="javax.swing.JButton" binding="b14">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Noto Sans Mono CJK SC Bold" size="20" style="1"/>
+          <maximumSize width="70" height="70"/>
+          <minimumSize width="70" height="70"/>
+          <preferredSize width="70" height="70"/>
+          <text value="Button"/>
+        </properties>
+      </component>
+      <component id="ba047" class="javax.swing.JButton" binding="b10">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Noto Sans Mono CJK SC Bold" size="20" style="1"/>
+          <maximumSize width="70" height="70"/>
+          <minimumSize width="70" height="70"/>
+          <preferredSize width="70" height="70"/>
+          <text value="Button"/>
+        </properties>
+      </component>
+      <component id="2429d" class="javax.swing.JButton" binding="b9">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Noto Sans Mono CJK SC Bold" size="20" style="1"/>
+          <maximumSize width="70" height="70"/>
+          <minimumSize width="70" height="70"/>
+          <preferredSize width="70" height="70"/>
+          <text value="Button"/>
+        </properties>
+      </component>
+      <component id="504d6" class="javax.swing.JButton" binding="b13">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Noto Sans Mono CJK SC Bold" size="20" style="1"/>
+          <maximumSize width="70" height="70"/>
+          <minimumSize width="70" height="70"/>
+          <preferredSize width="70" height="70"/>
+          <text value="Button"/>
+        </properties>
+      </component>
+      <component id="211c3" class="javax.swing.JButton" binding="b6">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Noto Sans Mono CJK SC Bold" size="20" style="1"/>
+          <maximumSize width="70" height="70"/>
+          <minimumSize width="70" height="70"/>
+          <preferredSize width="70" height="70"/>
+          <text value="01"/>
+        </properties>
+      </component>
+      <vspacer id="38968">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </vspacer>
+      <component id="bc749" class="javax.swing.JButton" binding="prevButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Prev"/>
+        </properties>
+      </component>
+      <component id="4674c" class="javax.swing.JButton" binding="nextButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Next"/>
+        </properties>
+      </component>
+      <vspacer id="cc32f">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </vspacer>
+      <hspacer id="41ac2">
+        <constraints>
+          <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="fc14c">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </hspacer>
+      <vspacer id="dfaa">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+</form>
