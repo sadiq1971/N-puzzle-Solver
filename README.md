@@ -1,5 +1,4 @@
 # N puzzle solver
-```
 
 ## Heuristic used
 * Number of misplaced tiles.
